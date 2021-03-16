@@ -1,0 +1,23 @@
+{
+  "name": "tab-lists-ext",
+  "version": "0.0.1",
+  "description": "Send a tab list to Things or the clipboard.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run build-chrome && npm run build-firefox",
+    "build-chrome": "zip -r build/chrome.zip src/",
+    "build-firefox": "web-ext build -s src/ -a build/",
+    "eslint": "eslint .",
+    "clean": "rm -rf ./build/* && touch ./build/.keep",
+    "convert-images": "./util/convert-images.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.89",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "typescript": "^2.9.2",
+    "web-ext": "^3.2.0"
+  }
+}
