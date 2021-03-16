@@ -1,12 +1,12 @@
-# Tab Lists for Firefox (& maybe Chrome)
+# Tab Lists to Things or Clipboard extension for Firefox
 
-Send a list of tabs from the current window to Things or copy it to the clipboard.
+Send a tab list from the current window to the Things to-do app or to the clipboard.
 
 This extension is based on https://github.com/yorkxin/copy-as-markdown.
 
 ## Download
 
-* Firefox: **tk**
+* Firefox: Install from https://addons.mozilla.org/en-US/firefox/addon/tab-lists-things-clipboard/
 
 ## Keyboard Shortcuts
 

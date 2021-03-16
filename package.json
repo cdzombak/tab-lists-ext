@@ -1,7 +1,7 @@
 {
   "name": "tab-lists-ext",
-  "version": "0.0.1",
-  "description": "Send a tab list to Things or the clipboard.",
+  "version": "0.0.2",
+  "description": "Send a tab list to the Things to-do app or to the clipboard.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && npm run build-chrome && npm run build-firefox",

@@ -1,8 +1,8 @@
 {
-  "name": "Tab Lists",
-  "version": "0.0.1",
+  "name": "Tab Lists to Things or Clipboard",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Send a tab list to Things or the clipboard.",
+  "description": "Send a tab list to the Things to-do app or to the clipboard.",
   "permissions": [
     "clipboardWrite",
     "tabs"
@@ -21,10 +21,5 @@
   "background": {
     "page": "./background.html",
     "persistent": true
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "strict_min_version": "60.0"
-    }
   }
 }
