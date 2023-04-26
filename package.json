@@ -7,7 +7,7 @@
     "build": "npm run clean && npm run build-chrome && npm run build-firefox",
     "build-chrome": "zip -r build/chrome.zip src/",
     "build-firefox": "web-ext build -s src/ -a build/",
-    "eslint": "eslint .",
+    "lint": "eslint .",
     "clean": "rm -rf ./build/* && touch ./build/.keep",
     "convert-images": "./util/convert-images.sh"
   },
