@@ -8,10 +8,32 @@
     "tabs"
   ],
   "browser_action": {
-    "default_icon": "./images/icon-128.png",
+    "default_icon": "./images/action_light_ui-48.png",
     "default_title": "Tab List...",
     "default_popup": "./ui/popup.html",
-    "browser_style": true
+    "browser_style": true,
+    "theme_icons": [
+      {
+        "light": "./images/action_light_ui-16.png",
+        "dark": "./images/action_dark_ui-16.png",
+        "size": 16
+      },
+      {
+        "light": "./images/action_light_ui-24.png",
+        "dark": "./images/action_dark_ui-24.png",
+        "size": 24
+      },
+      {
+        "light": "./images/action_light_ui-32.png",
+        "dark": "./images/action_dark_ui-32.png",
+        "size": 32
+      },
+      {
+        "light": "./images/action_light_ui-48.png",
+        "dark": "./images/action_dark_ui-48.png",
+        "size": 48
+      }
+    ]
   },
   "icons": {
     "16": "./images/icon-16.png",
