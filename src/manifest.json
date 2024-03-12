@@ -1,6 +1,6 @@
 {
   "name": "Tab Lists to Things or Clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Send a tab list to the Things to-do app or to the clipboard.",
   "homepage_url": "https://github.com/cdzombak/tab-lists-ext",
