@@ -1,0 +1,22 @@
+---
+"on": push
+name: Lint
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: checkout
+      - name: npm install
+        run: npm install
+      - name: lint
+        run: npm run lint
+
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        name: checkout
+      - uses: rhysd/actionlint@latest
+        name: actionlint
