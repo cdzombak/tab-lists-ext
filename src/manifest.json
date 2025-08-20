@@ -46,5 +46,19 @@
   "background": {
     "page": "./background.html",
     "persistent": true
+  },
+  "commands": {
+    "all-tabs-to-clipboard": {
+      "description": "Copy all tabs to clipboard"
+    },
+    "highlighted-tabs-to-clipboard": {
+      "description": "Copy highlighted tabs to clipboard"
+    },
+    "all-tabs-to-things": {
+      "description": "Send all tabs to Things"
+    },
+    "highlighted-tabs-to-things": {
+      "description": "Send highlighted tabs to Things"
+    }
   }
 }
