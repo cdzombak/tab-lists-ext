@@ -7,3 +7,13 @@ chrome.runtime.onMessage.addListener(async (message) => {
   // To avoid an error related to port closed before response
   return true;
 });
+
+// listen to keyboard shortcuts
+chrome.commands.onCommand.addListener(async (command) => {
+  await messageHandler({
+    topic: 'run-tabs-list',
+    params: {
+      action: command,
+    },
+  });
+});
